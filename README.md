@@ -55,11 +55,11 @@
 - [Summary: Key Points and Takeaways](./material/part2.md)
 - [Activity 2](./material/activity2.md)
 
-
+<!-- 
 ----
 > [!TIP]  
 > ...
-
+ -->
 
 
 
