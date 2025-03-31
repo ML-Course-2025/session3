@@ -7,6 +7,7 @@ Machine Learning is behind many exciting technologies today, like self-driving c
 > **For more information, please refer to this reading:** 
 > - [Introduction to Supervised Learning](https://developers.google.com/machine-learning/intro-to-ml/supervised)
 > - [Linear regression](https://developers.google.com/machine-learning/crash-course/linear-regression)
+> - [Classification](https://developers.google.com/machine-learning/crash-course/classification)
 
 
 **1. What is Machine Learning, Briefly?**
