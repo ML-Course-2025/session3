@@ -153,4 +153,4 @@ This command installs the `transformers` and `gradio` libraries. Wait for the in
     *   The Hugging Face NLP Course provides comprehensive material on Transformers and related concepts. Refer to [Chapter 1, Section 3: "Transformers, what can they do?"](https://huggingface.co/learn/nlp-course/chapter1/3) for an overview of various tasks addressable by the `pipeline` function. You could modify the `pipeline` call in the code (e.g., `pipeline("zero-shot-classification", model="facebook/bart-large-mnli")`) to experiment with other NLP tasks directly.
 
 ---
-## **Part 2:
+## Part 2:
