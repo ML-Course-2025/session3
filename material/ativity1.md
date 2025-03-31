@@ -10,12 +10,12 @@
 
 **Learning Objectives:**
 By the end of this lab, you will be able to:
-✔ Define **supervised learning** and differentiate it from other ML types.
-✔ Identify the two main supervised learning tasks: **classification** and **regression**.
-✔ Apply a **standard machine learning pipeline** for supervised tasks.
-✔ Implement basic classification (Decision Tree) and regression (Linear Regression) models using `scikit-learn`.
-✔ Evaluate model performance using appropriate metrics (accuracy, classification report, MAE, MSE, R²).
-✔ Understand the necessity of **data preprocessing** for real-world datasets.
+- Define **supervised learning** and differentiate it from other ML types.
+- Identify the two main supervised learning tasks: **classification** and **regression**.
+- Apply a **standard machine learning pipeline** for supervised tasks.
+- Implement basic classification (Decision Tree) and regression (Linear Regression) models using `scikit-learn`.
+- Evaluate model performance using appropriate metrics (accuracy, classification report, MAE, MSE, R²).
+- Understand the necessity of **data preprocessing** for real-world datasets.
 
 **1. What is Supervised Learning?**
 Supervised learning is a type of machine learning where an algorithm learns from a **labeled dataset**. This means for each data point (input features), there's a known correct output (label or target). The goal is to learn a mapping function that can predict the output for new, unseen input data.
@@ -38,7 +38,7 @@ Most supervised learning projects follow these general steps:
 6.  **Make Predictions:** Use the trained model to predict outputs for the **testing data**.
 7.  **Evaluate Model:** Compare the model's predictions against the actual known labels in the **testing data** using relevant metrics.
 
-**💡 Important Note for this Lab:**
+**Important Note for this Lab:**
 In Parts 1-4, we will use datasets that have *already been preprocessed* (cleaned) for you. This allows you to focus on steps 3-7 (Split, Train, Predict, Evaluate) first. In Part 5, we will review Preprocessing (i.e. Step 2) and show you how real-world data often looks and how it gets cleaned.
 
 **3. Datasets We Will Use:**
