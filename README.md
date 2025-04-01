@@ -2,7 +2,7 @@
 
 
 > [!NOTE]  
-> - [How to share Your Colab Notebook](./material/colab.md)
+> - [How to share your work](./material/colab.md)
 > - [Zoom Recordings](https://metropoliafi-my.sharepoint.com/:f:/g/personal/samiben_metropolia_fi/EuSPkRmWcYpGsXdjFhE2k80BaZBR-EeccL7AHlnTQya-6w)
 > - More on the project **later**.
 

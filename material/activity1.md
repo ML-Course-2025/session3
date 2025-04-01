@@ -49,7 +49,10 @@ In Parts 1-4, we will use datasets that have *already been preprocessed* (cleane
 *   **Diabetes (Regression):** Predict disease progression one year after baseline.
 
 **4. Setup:**
-Make sure you have the necessary libraries installed and imported.
+
+Open a new Google Colab notebook ([colab.research.google.com](https://colab.research.google.com)). 
+Make sure you have the necessary libraries installed and imported. 
+
 
 ```python
 # Import necessary libraries
@@ -69,6 +72,12 @@ from sklearn.pipeline import Pipeline # Part 5
 # Configure plots for better visibility
 plt.style.use('seaborn-v0_8-whitegrid')
 plt.rcParams['figure.figsize'] = (10, 6)
+```
+
+If a library (e.g., `mylib`) is not found, you can install it using the following command:  
+
+```python
+!pip install mylib
 ```
 
 ---
@@ -193,9 +202,23 @@ plt.title("Decision Tree for Titanic Survival Prediction")
 plt.show()
 ```
 
+
+**Step 1.8: Questions**
+
+1. Why is accuracy not always a reliable metric for evaluating classification models? Provide an example where accuracy can be misleading and explain the importance of precision and recall. 
+2. What is a confusion matrix in classification? Describe its components and explain how it helps in assessing a classifier's performance.
+
+
+
 ---
 
 ### Part 2: Practice Classification (Iris Dataset)
+
+
+
+> [!NOTE]  
+> In this part, the original plan was to have you write the code. However, since our students come from diverse backgrounds, we have provided a sample solution. Your task now is to focus on understanding the big picture behind the code.
+
 
 **Goal:** Apply the classification pipeline steps yourself using the Iris dataset. Use the steps from Part 1 as a guide.
 
@@ -428,6 +451,10 @@ plt.show()
 # Ideally, residuals should be normally distributed around zero.
 ```
 
+**Question:**  
+
+Explain the differences between **Mean Absolute Error (MAE), Mean Squared Error (MSE), and Root Mean Squared Error (RMSE)** in regression. How does each metric measure error, and in what situations might one be preferred over the others?
+
 **Key Takeaways from Part 3:** You've trained and evaluated a regression model, learned about regression metrics (MAE, MSE, R²), and visualized its performance.
 
 ---
@@ -435,6 +462,9 @@ plt.show()
 ### Part 4: Practice Regression (Diabetes Dataset)
 
 **Goal:** Apply the regression pipeline steps yourself using the Diabetes dataset from `sklearn`. Use Part 3 as a guide.
+
+> [!NOTE]  
+> In this part, the original plan was to have you write the code. However, since our students come from diverse backgrounds, we have provided a sample solution. Your task now is to focus on understanding the big picture behind the code.
 
 **Step 4.1: Load Diabetes Data**
 This dataset is also built into `sklearn`. Features are already scaled.
@@ -558,7 +588,7 @@ plt.show()
 **Let's revisit the Auto MPG dataset, but load the *raw* version this time.**
 
 **Step 5.1: Load RAW Data and Initial Inspection**
-Notice the `na_values='?'` - this tells pandas to treat '?' as missing.
+Notice the `na_values='?'`: this tells pandas to treat '?' as missing.
 
 ```python
 import pandas as pd
@@ -585,7 +615,7 @@ raw_mpg_df.info()
 print("\nMissing values count:")
 print(raw_mpg_df.isnull().sum())
 ```
-*   **Observation:** `horsepower` has missing values (6). Also notice `horsepower` is an `object` (text) type, likely because of the '?' before we handled `na_values`. `origin` is numeric but represents categories (1: USA, 2: Europe, 3: Japan). `car_name` is text and probably not useful as a raw feature.
+*   **Observation:** `horsepower` has missing values (6). Also notice `horsepower` is an `object` (text) type, because of the '?' before we handled `na_values`. `origin` is numeric but represents categories (1: USA, 2: Europe, 3: Japan). `car_name` is text and probably not useful as a raw feature.
 
 **Step 5.2: Handling Missing Values (Imputation)**
 We need to fill or remove missing values. For `horsepower`, let's fill with the median.
@@ -659,11 +689,11 @@ print(X_processed[numerical_cols].describe()) # Mean should be close to 0, std d
 **Lab Conclusion**
 
 You have:
-✔ Explored the fundamentals of supervised learning (classification and regression).
-✔ Implemented the standard ML pipeline using `scikit-learn`.
-✔ Trained and evaluated Decision Tree and Linear Regression models.
-✔ Visualized model results.
-✔ Gained an appreciation for the critical role of data preprocessing in real-world scenarios.
+- Explored the fundamentals of supervised learning (classification and regression).
+- Implemented the standard ML pipeline using `scikit-learn`.
+- Trained and evaluated Decision Tree and Linear Regression models.
+- Visualized model results.
+- Gained an appreciation for the critical role of data preprocessing in real-world scenarios.
 
 This lab provides a foundation. There are many more algorithms, evaluation techniques, and preprocessing methods to explore in the world of machine learning!
 
