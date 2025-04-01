@@ -9,15 +9,15 @@
 > After Session 3, your group should start brainstorming project ideas and planning how to use Colab and Gradio to create a small demo using a large language model (LLM).
 
 
+
+
+<!--   
+
 ---
 ## Further Exploration (Optional)
 
 - [Gradio Crash Course - Fastest way to build & share Machine Learning apps](https://www.youtube.com/watch?v=eE7CamOE-PA)
 - [NLP Course: Chapter 1](https://huggingface.co/learn/nlp-course/chapter1/1)
-
-
-<!--   
-
 
 - [How Language Models Choose the Next Word](https://www.youtube.com/watch?v=vQbSBdJ1Irw)
 - [The Fundamentals of LLM Text Generation](https://www.youtube.com/watch?v=a-6hVvU1WMk)

@@ -20,7 +20,7 @@
 
 - How to classify Iris using ML systems vs Traditional programming
   - Importance of Data
-  - [From Data to rules](./ml_vs_traditional_paradigm.png)
+  - [From Data to rules](./ml_vs_traditional_paradigm.md)
 
 
 ---

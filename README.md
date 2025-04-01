@@ -55,6 +55,25 @@
 - [Summary: Key Points and Takeaways](./material/part2.md)
 - [Activity 2](./material/activity2.md)
 
+
+----
+<details>
+<summary>Links used in the Lecture</summary>
+
+- Draw.io
+- [ML systems vs Traditional programming](./material/ml_vs_traditional_paradigm.md)
+- [Supervised Learning](https://developers.google.com/machine-learning/intro-to-ml/supervised)
+- [ML Pipeline](./material/part1.md)
+- [decision trees](https://www.kaggle.com/code/dansbecker/how-models-work)
+- [Classification: Accuracy, recall, precision, and related metrics](https://developers.google.com/machine-learning/crash-course/classification/accuracy-precision-recall)
+- [Confusion matrix](https://developers.google.com/machine-learning/crash-course/classification/thresholding#confusion_matrix)
+- [Linear regression](https://developers.google.com/machine-learning/crash-course/linear-regression)
+- [Transformers, what can they do?](https://huggingface.co/learn/nlp-course/chapter1/3)
+- [Behind the pipeline](https://huggingface.co/learn/nlp-course/chapter2/2)
+
+</details>
+
+
 <!-- 
 ----
 > [!TIP]  
